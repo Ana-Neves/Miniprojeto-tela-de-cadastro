@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #E9DFF6; /* Lilás Claro */
+    color: black; /* Preto */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: white; /* Lilás Médio */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 12px 20px;
+    margin: 10px;
+    background-color: #8A4690; /* Roxo Escuro */
+    color: #fff; /* Branco */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6B5E79; /* Roxo Médio */
+}
+
+form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+label {
+    color: black; 
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 2px solid #E9DFF6; /* Roxo Escuro */
+    border-radius: 8px;
+}
+
+#dataList {
+    margin-top: 20px;
+}
+
+#formContainer {
+    background-color: white; /* Lilás Escuro */
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+strong {
+    color: #8A4690; /* Roxo Médio */
+    font-weight: bold;
+}
+
+.delete-btn {
+    background-color: #C24C5A; /* Vermelho Escuro */
+    color: #fff; /* Branco */
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #A94350; /* Vermelho Médio */
+}
+
+.edit-btn {
+    background-color: #5B4E6B; /* Roxo Escuro */
+    color: #fff; /* Branco */
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.edit-btn:hover {
+    background-color: #6B5E79; /* Roxo Médio */
+}
