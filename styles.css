@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #E9DFF6; /* Lilás Claro */
@@ -92,4 +93,11 @@ strong {
 
 .edit-btn:hover {
     background-color: #6B5E79; /* Roxo Médio */
+}
+
+
+.logo {
+    max-width: 35%;
+    height: auto;
+    margin-bottom: 20px;
 }
