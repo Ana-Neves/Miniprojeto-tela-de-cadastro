@@ -1,8 +1,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #E9DFF6; /* Lilás Claro */
-    color: black; /* Preto */
+    background-color: #E9DFF6; 
+    color: black; 
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ body {
     max-width: 800px;
     margin: 50px auto;
     text-align: center;
-    background-color: white; /* Lilás Médio */
+    background-color: white; 
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -20,8 +20,8 @@ body {
 button {
     padding: 12px 20px;
     margin: 10px;
-    background-color: #8A4690; /* Roxo Escuro */
-    color: #fff; /* Branco */
+    background-color: #8A4690; 
+    color: #fff; 
     border: none;
     border-radius: 25px;
     cursor: pointer;
@@ -29,7 +29,7 @@ button {
 }
 
 button:hover {
-    background-color: #6B5E79; /* Roxo Médio */
+    background-color: #6B5E79; 
 }
 
 form {
@@ -46,7 +46,7 @@ input {
     padding: 10px;
     margin: 10px 0;
     width: 100%;
-    border: 2px solid #E9DFF6; /* Roxo Escuro */
+    border: 2px solid #E9DFF6; 
     border-radius: 8px;
 }
 
@@ -55,7 +55,7 @@ input {
 }
 
 #formContainer {
-    background-color: white; /* Lilás Escuro */
+    background-color: white; 
     padding: 15px;
     border-radius: 10px;
     margin-top: 20px;
@@ -63,13 +63,13 @@ input {
 }
 
 strong {
-    color: #8A4690; /* Roxo Médio */
+    color: #8A4690; 
     font-weight: bold;
 }
 
 .delete-btn {
-    background-color: #C24C5A; /* Vermelho Escuro */
-    color: #fff; /* Branco */
+    background-color: #C24C5A; 
+    color: #fff;
     border: none;
     padding: 8px 15px;
     border-radius: 5px;
@@ -78,12 +78,12 @@ strong {
 }
 
 .delete-btn:hover {
-    background-color: #A94350; /* Vermelho Médio */
+    background-color: #A94350; 
 }
 
 .edit-btn {
-    background-color: #5B4E6B; /* Roxo Escuro */
-    color: #fff; /* Branco */
+    background-color: #5B4E6B; 
+    color: #fff;
     border: none;
     padding: 8px 15px;
     border-radius: 5px;
@@ -92,7 +92,7 @@ strong {
 }
 
 .edit-btn:hover {
-    background-color: #6B5E79; /* Roxo Médio */
+    background-color: #6B5E79; 
 }
 
 
