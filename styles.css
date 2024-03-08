@@ -101,3 +101,27 @@ strong {
     height: auto;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    .logo {
+        max-width: 100px;
+        margin-bottom: 5px;
+    }
+
+    button {
+        padding: 10px 15px;
+    }
+
+    input {
+        padding: 8px;
+        margin: 8px 0;
+    }
+}
