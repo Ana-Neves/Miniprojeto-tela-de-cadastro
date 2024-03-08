@@ -37,3 +37,22 @@ function displayDataList() {
     });
 }
 
+function clearForm() {
+    document.getElementById('name').value = '';
+    document.getElementById('email').value = '';
+    formContainer.style.display = 'none';
+}
+
+function editData(index) {
+    let selectedData = dataList[index];
+    document.getElementById('name').value = selectedData.name;
+    document.getElementById('email').value = selectedData.email;
+
+    dataList.splice(index, 1);
+    displayDataList();
+}
+
+function deleteData(index) {
+    dataList.splice(index, 1);
+    displayDataList();
+}
